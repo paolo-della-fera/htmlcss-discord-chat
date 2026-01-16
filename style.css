@@ -12,7 +12,7 @@ body {
 
 .app-mess {
     height: 100vh;
-    background-color: #141318;
+    background-color: #131814;
     display: flex;
 }
 
@@ -192,3 +192,55 @@ body {
 
 /* #endregion lista chat */
 
+
+/* #region footer */
+body {
+  width: 512px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-mess {
+  flex: 1;
+  display: flex;
+  background-color: #2d2d35;
+  overflow: hidden;
+}
+
+/* bottoni di navigazione */
+.app-footer {
+  height: 72px;
+  background-color: #2b2d33;
+  border-top: 1px solid transparent;
+  display: flex;
+  justify-content: space-around;
+  padding: 8px 10px;
+}
+
+.app-footer-item {
+  flex: 1;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.app-footer-item i {
+  font-size: 22px;
+  line-height: 1;
+}
+
+/* avatar */
+.app-footer-avatar {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* #endregion footer */
