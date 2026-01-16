@@ -63,8 +63,6 @@ body {
     margin-top: 10px;
     margin-left: 8px;
     border-top-left-radius: 18px;
-    border-bottom-left-radius: 18px;
-    overflow: hidden;
 }
 
 
@@ -123,3 +121,74 @@ body {
 }
 
 /* #endregion searchbar */
+
+
+
+/* #region lista chat */
+
+.chat-list {
+    margin-top: 8px;
+    padding: 0 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+/* singola chat */
+.chat-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 8px;
+    border-radius: 12px;
+}
+
+/* foto profilo */
+.foto-profilo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+/* contenuto testo */
+.chat-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+/* nome e orario */
+.chat-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+
+    .chat-name {
+        color: #ffffff;
+        font-size: 15px;
+        font-weight: 600;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    .chat-time {
+        color: #a9abb3;
+        font-size: 12px;
+        flex-shrink: 0;
+    }
+}
+
+
+/* anteprima messaggio */
+.chat-preview {
+    color: #a9abb3;
+    font-size: 14px;
+    overflow: hidden;
+}
+
+/* #endregion lista chat */
+
