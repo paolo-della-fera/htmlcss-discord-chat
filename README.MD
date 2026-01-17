@@ -12,8 +12,4 @@ Mettete alla prova ciò che avete imparato rispetto al layout ed agli allineamen
 Inserire un pallino colorato che rappresenta lo stato dell’utente
 
 
-Al passaggio del mouse i box delle chat vengono evidenziati con un grigio più chiaro.
 
-Se sono presenti molti contatti, la scrollbar appare solo sulla sezione dedicata all lista delle chat.
-
-Aggiungere un bottone rapido di nuova chat in basso a destra in posizione fissa.

@@ -179,7 +179,7 @@ body {
 }
 
 .chat-item.selected .chat-name {
-  color: #ffffff;
+    color: #ffffff;
 }
 
 .chat-item:hover {
@@ -288,3 +288,27 @@ body {
 }
 
 /* #endregion footer */
+
+
+/* #region new chat btn */
+
+.new-chat-btn {
+    position: fixed;
+    right: 18px;
+    bottom: 90px;
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    background-color: #5865f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.new-chat-btn i {
+    font-size: 22px;
+}
+
+/* #endregion new chat btn */
