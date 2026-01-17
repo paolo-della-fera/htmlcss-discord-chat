@@ -11,7 +11,6 @@ Mettete alla prova ciò che avete imparato rispetto al layout ed agli allineamen
 
 Inserire un pallino colorato che rappresenta lo stato dell’utente
 
-Proviamo ad ottenere lo stesso effetto al passaggio del mouse e aggiungiamo anche un lieve ingrandimento dell’icona del server
 
 Al passaggio del mouse i box delle chat vengono evidenziati con un grigio più chiaro.
 
